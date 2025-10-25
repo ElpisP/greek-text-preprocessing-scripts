@@ -48,3 +48,9 @@ Install dependencies with:
 
 ```bash
 pip install python-Levenshtein
+
+## Citation / Contact
+Please reference this repository when using these scripts in research projects.  
+
+Example citation:
+Perdiki, Elpida, "Greek text preprocessing scripts", GitHub repository, https://github.com/yourusername/greek-text-preprocessing-scripts, 2025.
