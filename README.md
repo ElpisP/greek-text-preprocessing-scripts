@@ -48,6 +48,7 @@ Install dependencies with:
 
 ```bash
 pip install python-Levenshtein
+```
 
 ## Citation / Contact
 Please reference this repository when using these scripts in research projects.  
