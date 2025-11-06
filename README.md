@@ -18,25 +18,20 @@ These scripts are intended for research purposes and can be adapted for similar 
 
 ### 1. Convert Uppercase to Lowercase
 - **Purpose:** Convert all uppercase letters in a manuscript file to lowercase.
-- **Example:** `A-Homily-1-cleaner.txt` → `A-Homily-1-lowercase.txt`
 
 ### 2. Join Multiple Lines into One String
 - **Purpose:** Concatenate all lines of a manuscript into a single string.
-- **Example:** `A_-_Athens_EBE_263-clean_duplicated.txt` → `A-mss-joined.txt`
 
 ### 3. Remove Punctuation
 - **Purpose:** Remove punctuation characters from a manuscript.
-- **Example:** `A_-_Athens_EBE_263-clean_duplicated.txt` → `A-clean.txt`
 
 ### 4. Calculate CER for a File
 - **Purpose:** Compute the Character Error Rate (CER) between a reference and a hypothesis text.
-- **Example:** `reference.txt` and `hypothesis.txt` → CER value printed in console
 - **Dependency:** Python package `python-Levenshtein`
 
 ### 5. Generate Synthetic CER Datasets
 - **Purpose:** Introduce controlled errors into a manuscript text to create datasets with specific CER levels.
 - **Use Case:** Evaluate the maximum CER allowing successful manuscript clustering
-- **Example:** `D-5-GT.txt` and `D-5-HTR.txt` → multiple files in `CER_contaminations` folder with CERs: 20%, 15%, 10%, 6%, 3%, 0%
 - **Dependency:** Python package `python-Levenshtein`
 
 ## Dependencies
